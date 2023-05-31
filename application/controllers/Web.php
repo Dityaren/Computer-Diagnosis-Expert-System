@@ -15,6 +15,9 @@ class Web extends CI_Controller
 	public function diagnosa()
 	{
 		$data['username'] = $this->session->userdata('nama');
+		if ($data['username'] == '') {
+			redirect('/', 'location', 301);
+		}
 		$this->load->view('website', $data);
 	}
 
