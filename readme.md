@@ -9,13 +9,13 @@ To run the website, make sure you have PHP and CodeIgniter 3 installed. Then, fo
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository.git
+git clone https://github.com/Dityaren/Computer-Diagnosis-Expert-System
 ```
 
 2. Change into the project directory:
 
 ```bash
-cd your-repository
+cd Computer-Diagnosis-Expert-System
 ```
 
 3. Start a local development server:
